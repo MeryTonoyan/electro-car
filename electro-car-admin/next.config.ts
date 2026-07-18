@@ -2,7 +2,8 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
     output: 'export',
-    basePath: '/electro-car',
+    basePath: '/electro-car-admin',
+    trailingSlash: true,
     images: {
         unoptimized: true,
     },
